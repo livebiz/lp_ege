@@ -1,0 +1,62 @@
+.b11 {
+	color: #fff;
+	height: 440px;
+	background: #000;
+	position: relative;
+
+	#map {
+		height: 440px;
+		@include opacity(0.4);
+	}
+
+	.address {
+		top: 80px;
+		left: 15px;
+		width: 312px;
+		color: #454f63;
+		padding: 20px 18px;
+		position: absolute;
+		@include border-radius(3px);
+		background: #fff;
+
+		.address-title {
+			font-size: 38px;
+			font-weight: 300;
+			line-height: 50px;
+			text-align: center;
+			margin-bottom: 10px;
+		}
+
+		ul {
+			margin: 0;
+			padding: 0 0 20px 0;
+			list-style: none;
+
+			li {
+				font-size: 15px;
+				font-weight: 300;
+				line-height: 27px;
+				position: relative;
+				padding-left: 26px;
+				margin-bottom: 2px;
+
+				.fa {
+					top: 4px;
+					left: 0;
+					position: absolute;
+				}
+			}
+		}
+
+		.btn {
+			width: 100%;
+		}
+	}
+
+	.content {
+		top: 0;
+		left: 0;
+		right: 0;
+		position: absolute;
+	}
+}

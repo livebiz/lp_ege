@@ -1,0 +1,75 @@
+.b08 {
+	color: #fff;
+	padding-top: 55px;
+	padding-bottom: 55px;
+	background: #fff url("../img/pattern-two.png");
+
+	.h2 {
+		color: #fff;
+	}
+
+	.review {
+		height: 372px;
+		overflow: hidden;
+		position: relative;
+		padding: 25px 0;
+		background: url("../img/b08_boad.jpg") 50% 0 no-repeat;
+
+		.review-author {
+			width: 320px;
+			font-size: 20px;
+			font-weight: 700;
+			text-align: center;
+			margin-bottom: 15px;
+
+			span {
+				display: block;
+				font-size: 16px;
+				font-weight: 400;
+			}
+		}
+
+		.review-image {
+			float: left;
+			width: 198px;
+			margin-left: 60px;
+			margin-right: 25px;
+			margin-bottom: 20px;
+		}
+
+		.review-text {
+			float: left;
+			width: 650px;
+			font-size: 16px;
+			margin-bottom: 20px;
+		}
+
+		.btn-vk {
+			margin-left: 80px;
+			margin-right: 55px;
+		}
+
+		.review-nav {
+			top: 50%;
+			width: 33px;
+			height: 64px;
+			z-index: 999;
+			display: block;
+			cursor: pointer;
+			margin-top: -32px;
+			position: absolute;
+			background: url("../img/review-nav.png") no-repeat;
+
+			&.prev {
+				left: 0;
+				background-position: -33px 0;
+			}
+
+			&.next {
+				right: 0;
+				background-position: 0 0;
+			}
+		}
+	}
+
+}
