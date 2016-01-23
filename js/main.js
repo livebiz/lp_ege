@@ -89,18 +89,16 @@ $(document).ready(function() {
                 name    =     $('input[name="name"]', $form).val(),
                 phone   =     $('input[name="phone"]', $form).val(),
                 email   =     $('input[name="email"]', $form).val(),
-                color   =     $('input[name="colors"]', $form).val(),
-                memory  =     $('input[name="mem"]', $form).val(),
                 message =     $('textarea[name="message"]', $form).val();
-            console.log(name, phone, email, type, color, memory, message);
+            console.log(name, phone, email, type, message);
             $.ajax({
                 type: "POST",
                 url: "form-handler.php",
-                data: {name: name, phone: phone, email:email, type:type, color:color, memory:memory, message:message}
+                data: {name: name, phone: phone, email:email, type:type, message:message}
             }).done(function(msg) {
                 $('form').find('input[type=text], textarea').val('');
                 console.log('удачно');
-                document.location.href = "http://rfmobile.ru/done.html";
+                document.location.href = "http://zephyrus.ru/project/2016/lp_ege/done.html";
             });
         }
     });
