@@ -1,3 +1,5 @@
+@import url(https://fonts.googleapis.com/css?family=Roboto:400,700,300,500&subset=latin,cyrillic);
+@import url(https://fonts.googleapis.com/css?family=PT+Sans:400,700&subset=latin,cyrillic,cyrillic-ext);
 @font-face {
   font-family: 'ArianAMU';
   src: url("../fonts/ArianAMU-Regular/ArianAMU_gdi.eot");
@@ -256,7 +258,7 @@ ul {
 
 .h2 {
   color: #35415c;
-  font-size: 42px;
+  font-size: 40px;
   font-weight: 700;
   line-height: 50px;
   text-align: center;
@@ -753,5 +755,197 @@ ul {
     .b03 .teacher-nav.next {
       right: 0;
       background-position: 0 0; }
+
+.b04 {
+  height: 1035px;
+  padding-top: 50px;
+  background: url("../img/b04_bg.jpg"); }
+  .b04 ul {
+    margin-bottom: 25px; }
+    .b04 ul li {
+      float: left;
+      width: 266px;
+      color: #35415c;
+      font-size: 15px;
+      line-height: 18px;
+      text-align: center;
+      margin-left: 96px; }
+      .b04 ul li:first-child {
+        margin-left: 0; }
+      .b04 ul li span {
+        display: block;
+        margin: 0 -10px; }
+  .b04 .item-image {
+    position: relative;
+    margin-bottom: 15px; }
+    .b04 .item-image:after {
+      top: 0;
+      left: 0;
+      right: 0;
+      bottom: 0;
+      content: '';
+      z-index: 50;
+      position: absolute;
+      background: rgba(53, 65, 92, 0.53); }
+    .b04 .item-image:before {
+      top: 0;
+      left: 0;
+      right: 0;
+      bottom: 0;
+      content: '';
+      z-index: 100;
+      position: absolute;
+      background: url("../img/b04_item_border.png") 50% 50% no-repeat; }
+    .b04 .item-image:hover:after {
+      display: none; }
+
+.b05 {
+  color: #fff;
+  height: 698px;
+  padding-top: 70px;
+  background: url("../img/b05_bg.jpg") 50% 0 no-repeat; }
+  .b05 .h2 {
+    color: #fff;
+    font-size: 32px;
+    line-height: 36px;
+    margin-bottom: 20px; }
+  .b05 .subtitle {
+    font-size: 25px;
+    font-weight: 700;
+    line-height: 25px;
+    text-align: center;
+    margin-bottom: 50px; }
+  .b05 .form-block {
+    margin: 0 auto; }
+
+.b06 {
+  padding-top: 50px;
+  padding-bottom: 60px;
+  background: #fff url("../img/pattern-two.png"); }
+  .b06 .h2 {
+    margin-bottom: 60px; }
+  .b06 .tariff {
+    margin: 0 -15px;
+    position: relative; }
+    .b06 .tariff li {
+      float: left;
+      width: 310px;
+      color: #35415c;
+      margin: 0 15px;
+      text-align: center;
+      font-family: "Roboto", sans-serif;
+      padding: 25px 20px 20px 20px; }
+      .b06 .tariff li .tariff-name {
+        font-size: 29px;
+        font-weight: 700;
+        line-height: 30px;
+        margin-bottom: 80px; }
+      .b06 .tariff li .tariff-legend {
+        font-size: 19px;
+        font-weight: 700;
+        margin-bottom: 15px; }
+      .b06 .tariff li .tariff-text {
+        font-size: 15px;
+        font-weight: 300;
+        line-height: 24px;
+        margin-bottom: 15px; }
+      .b06 .tariff li .tariff-price {
+        font-size: 47px;
+        font-weight: 700;
+        line-height: 50px;
+        margin-bottom: 15px; }
+        .b06 .tariff li .tariff-price span {
+          font-family: 'PT Sans', sans-serif; }
+      .b06 .tariff li .btn-tariff {
+        margin: 0;
+        outline: none;
+        cursor: pointer;
+        font-size: 18px;
+        font-weight: 700;
+        line-height: 20px;
+        text-align: center;
+        position: relative;
+        padding: 14px 46px;
+        display: inline-block;
+        text-decoration: none;
+        vertical-align: middle;
+        background-image: none;
+        font-family: "ArianAMU", Arial, sans-serif;
+        background: transparent;
+        text-transform: uppercase;
+        touch-action: manipulation;
+        border: 2px solid transparent;
+        -webkit-border-radius: 3px;
+        -moz-border-radius: 3px;
+        -ms-border-radius: 3px;
+        border-radius: 3px;
+        -webkit-transition: 0.3s;
+        -o-transition: 0.3s;
+        transition: 0.3s; }
+        .b06 .tariff li .btn-tariff:hover {
+          text-decoration: none; }
+        .b06 .tariff li .btn-tariff:active {
+          top: 1px; }
+      .b06 .tariff li.tariff-base {
+        overflow: hidden;
+        position: relative;
+        border: 2px solid #98ba5a;
+        border-top: 9px solid #98ba5a;
+        -webkit-border-radius: 3px;
+        -moz-border-radius: 3px;
+        -ms-border-radius: 3px;
+        border-radius: 3px;
+        background: url("../img/b06_item1.png") 50% 70px no-repeat; }
+        .b06 .tariff li.tariff-base .btn-tariff {
+          color: #98ba5a;
+          border-color: #98ba5a; }
+          .b06 .tariff li.tariff-base .btn-tariff:hover {
+            color: #fff;
+            background: #98ba5a; }
+      .b06 .tariff li.tariff-optima {
+        overflow: hidden;
+        position: relative;
+        margin-top: -12px;
+        border: 4px solid #f4463a;
+        border-top: 21px solid #f4463a;
+        -webkit-border-radius: 3px;
+        -moz-border-radius: 3px;
+        -ms-border-radius: 3px;
+        border-radius: 3px;
+        background: url("../img/b06_item2.png") 50% 70px no-repeat; }
+        .b06 .tariff li.tariff-optima .btn-tariff {
+          color: #fff;
+          border: none;
+          padding: 15px 46px;
+          background: #f4463a;
+          border-bottom: 3px solid #df3024; }
+          .b06 .tariff li.tariff-optima .btn-tariff:hover {
+            color: #fff;
+            background: #df3024; }
+      .b06 .tariff li.tariff-premium {
+        overflow: hidden;
+        position: relative;
+        border: 2px solid #479acf;
+        border-top: 9px solid #479acf;
+        -webkit-border-radius: 3px;
+        -moz-border-radius: 3px;
+        -ms-border-radius: 3px;
+        border-radius: 3px;
+        background: url("../img/b06_item3.png") 50% 70px no-repeat; }
+        .b06 .tariff li.tariff-premium .btn-tariff {
+          color: #479acf;
+          border-color: #479acf; }
+          .b06 .tariff li.tariff-premium .btn-tariff:hover {
+            color: #fff;
+            background: #479acf; }
+
+.b07 {
+  color: #fff;
+  height: 600px;
+  padding-top: 70px;
+  background: url("../img/b07_bg.jpg") 50% 0 no-repeat; }
+  .b07 .h2 {
+    color: #fff;
+    margin-bottom: 60px; }
 
 /*# sourceMappingURL=main.css.map */

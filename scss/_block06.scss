@@ -1,0 +1,146 @@
+.b06 {
+	padding-top: 50px;
+	padding-bottom: 60px;
+	background: #fff url("../img/pattern-two.png");
+
+	.h2 {
+		margin-bottom: 60px;
+	}
+
+	.tariff {
+		margin: 0 -15px;
+		position: relative;
+
+		li {
+			float: left;
+			width: 310px;
+			color: #35415c;
+			margin: 0 15px;
+			text-align: center;
+			font-family: $font-roboto;
+			padding: 25px 20px 20px 20px;
+
+			.tariff-name {
+				font-size: 29px;
+				font-weight: 700;
+				line-height: 30px;
+				margin-bottom: 80px;
+			}
+
+			.tariff-legend {
+				font-size: 19px;
+				font-weight: 700;
+				margin-bottom: 15px;
+			}
+
+			.tariff-text {
+				font-size: 15px;
+				font-weight: 300;
+				line-height: 24px;
+				margin-bottom: 15px;
+			}
+
+			.tariff-price {
+				font-size: 47px;
+				font-weight: 700;
+				line-height: 50px;
+				margin-bottom: 15px;
+				span {
+					font-family: 'PT Sans', sans-serif;
+				}
+			}
+
+			.btn-tariff {
+				margin:0;
+				outline: none;
+				cursor: pointer;
+				font-size: 18px;
+				font-weight: 700;
+				line-height: 20px;
+				text-align: center;
+				position: relative;
+				padding: 14px 46px;
+				display: inline-block;
+				text-decoration: none;
+				vertical-align: middle;
+				background-image: none;
+				font-family: $font-base;
+				background: transparent;
+				text-transform: uppercase;
+				touch-action: manipulation;
+				border: 2px solid transparent;
+				@include border-radius(3px);
+				@include transition(.3s);
+
+				&:hover {
+					text-decoration: none;
+				}
+
+				&:active {
+					top: 1px;
+				}
+			}
+
+			&.tariff-base {
+				overflow: hidden;
+				position: relative;
+				border: 2px solid #98ba5a;
+				border-top: 9px solid #98ba5a;
+				@include border-radius(3px);
+				background: url("../img/b06_item1.png") 50% 70px no-repeat;
+
+				.btn-tariff {
+					color: #98ba5a;
+					border-color: #98ba5a;
+
+					&:hover {
+						color: #fff;
+						background: #98ba5a;
+					}
+				}
+			}
+
+			&.tariff-optima {
+				overflow: hidden;
+				position: relative;
+				margin-top: -12px;
+				border: 4px solid #f4463a;
+				border-top: 21px solid #f4463a;
+				@include border-radius(3px);
+				background: url("../img/b06_item2.png") 50% 70px no-repeat;
+
+				.btn-tariff {
+					color: #fff;
+					border: none;
+					padding: 15px 46px;
+					background: #f4463a;
+					border-bottom: 3px solid #df3024;
+
+					&:hover {
+						color: #fff;
+						background: #df3024;
+					}
+				}
+			}
+
+			&.tariff-premium {
+				overflow: hidden;
+				position: relative;
+				border: 2px solid #479acf;
+				border-top: 9px solid #479acf;
+				@include border-radius(3px);
+				background: url("../img/b06_item3.png") 50% 70px no-repeat;
+
+				.btn-tariff {
+					color: #479acf;
+					border-color: #479acf;
+
+					&:hover {
+						color: #fff;
+						background: #479acf;
+					}
+				}
+			}
+		}
+	}
+}
