@@ -1,0 +1,94 @@
+.b03 {
+	color: #fff;
+	height: 693px;
+	padding-top: 70px;
+	background: url("../img/b03_bg.jpg") 50% 0 no-repeat;
+
+	.h2 {
+		color: #fff;
+		margin-bottom: 10px;
+	}
+
+	.subtitle {
+		font-size: 25px;
+		font-weight: 700;
+		line-height: 25px;
+		text-align: center;
+		margin-bottom: 50px;
+	}
+
+	.teachers {
+		height: 400px;
+		color: #454f63;
+		padding-top: 25px;
+		position: relative;
+		border: 8px solid #444a5e;
+		background: #fff url("../img/pattern-two.png");
+
+		.teachers-slider {
+			position: relative;
+		}
+
+		.teacher-item {
+			outline: none;
+		}
+
+		.teacher-author {
+			width: 300px;
+			font-size: 15px;
+			line-height: 20px;
+			text-align: center;
+			margin-bottom: 10px;
+
+			.teacher-name {
+				font-size: 20px;
+				line-height: 20px;
+				margin-bottom: 10px;
+			}
+
+			span {
+				display: block;
+			}
+		}
+
+		.teacher-left {
+			float: left;
+			width: 198px;
+			margin-left: 52px;
+		}
+
+		.teacher-image {
+			margin-bottom: 12px;
+		}
+
+		.teacher-text {
+			float: left;
+			width: 660px;
+			color: #454f63;
+			font-size: 16px;
+			margin-left: 20px;
+		}
+	}
+
+	.teacher-nav {
+		top: 50%;
+		width: 33px;
+		height: 64px;
+		z-index: 999;
+		display: block;
+		cursor: pointer;
+		margin-top: -32px;
+		position: absolute;
+		background: url("../img/teachers-nav.png") no-repeat;
+
+		&.prev {
+			left: 0;
+			background-position: -33px 0;
+		}
+
+		&.next {
+			right: 0;
+			background-position: 0 0;
+		}
+	}
+}

@@ -1,0 +1,86 @@
+.top {
+	top: 0;
+	left: 0;
+	right: 0;
+	z-index: 999;
+	height: 125px;
+	position: fixed;
+	min-width: 1020px;
+	padding-top: 15px;
+	background: transparent;
+	border-bottom: 1px solid #9aa3b1;
+
+	.logo {
+		float: left;
+		width: 180px;
+	}
+
+	.contact {
+		float: right;
+		width: 250px;
+		text-align: right;
+
+		.phone {
+			color: #fff;
+			font-size: 25px;
+			font-weight: 700;
+			line-height: 28px;
+			margin-bottom: 8px;
+			display: inline-block;
+		}
+	}
+
+	.topnav {
+		top: 50px;
+		left: 195px;
+		margin: 0;
+		padding: 0;
+		list-style: none;
+		position: absolute;
+
+		li {
+			float: left;
+			margin: 0 13px;
+			position: relative;
+
+			a {
+				color: #fff;
+				font-size: 15px;
+				font-weight: 300;
+				line-height: 20px;
+				text-decoration: none;
+			}
+		}
+	}
+}
+
+
+.b01 {
+	color: #fff;
+	height: 867px;
+	padding-top: 210px;
+	background: url("../img/b01_bg.jpg") 50% 0 no-repeat;
+
+	h1 {
+		font-size: 44px;
+		font-weight: 700;
+		line-height: 48px;
+		text-align: center;
+		margin-bottom: 20px;
+		text-transform: uppercase;
+		text-shadow: 0px 2px 7px rgba(40, 48, 71, 0.55);
+	}
+
+	.text {
+		font-size: 22px;
+		line-height: 26px;
+		margin-bottom: 80px;
+	}
+
+	.form-block {
+		float: right;
+		position: relative;
+	}
+
+}
+

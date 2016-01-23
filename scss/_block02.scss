@@ -1,0 +1,58 @@
+.b02 {
+	height: 1133px;
+	padding-top: 50px;
+	background: #fff url("../img/b02_bg.jpg") 50% 0 no-repeat;
+
+	.h2 {
+
+	}
+
+	.advantage {
+		margin: 0 -15px;
+
+		&.advantage-top {
+			margin-bottom: 390px;
+		}
+
+		li {
+			float: left;
+			width: 340px;
+			color: #35415c;
+			font-size: 14px;
+			line-height: 18px;
+			text-align: center;
+			padding: 145px 15px 0 15px;
+
+			&.item1 {
+				background: url("../img/b02_item1.png") 50% 0 no-repeat;
+			}
+
+			&.item2 {
+				background: url("../img/b02_item2.png") 50% 0 no-repeat;
+			}
+
+			&.item3 {
+				background: url("../img/b02_item3.png") 50% 0 no-repeat;
+			}
+
+			&.item4 {
+				background: url("../img/b02_item4.png") 50% 0 no-repeat;
+			}
+
+			&.item5 {
+				background: url("../img/b02_item5.png") 50% 0 no-repeat;
+			}
+
+			&.item6 {
+				background: url("../img/b02_item6.png") 50% 0 no-repeat;
+			}
+
+			.advantage-title {
+				font-size: 20px;
+				font-weight: 700;
+				line-height: 20px;
+				margin-bottom: 10px;
+			}
+		}
+	}
+}
