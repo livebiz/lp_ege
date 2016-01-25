@@ -2752,22 +2752,25 @@ textarea.form-control {
 
 .b01 {
   color: #fff;
-  height: 867px;
-  padding-top: 210px;
+  height: 670px;
+  padding-top: 240px;
   position: relative;
   background: url("../img/b01_bg.jpg") 50% 0 no-repeat; }
   .b01 h1 {
-    font-size: 44px;
+    font-size: 36px;
     font-weight: 700;
-    line-height: 48px;
-    text-align: center;
-    margin-bottom: 20px;
+    line-height: 40px;
+    margin-bottom: 40px;
     text-transform: uppercase;
     text-shadow: 0px 2px 7px rgba(40, 48, 71, 0.55); }
   .b01 .text {
-    font-size: 22px;
-    line-height: 26px;
-    margin-bottom: 80px; }
+    font-size: 24px;
+    line-height: 30px;
+    margin-bottom: 80px;
+    text-transform: uppercase; }
+  .b01 .text-block {
+    float: left;
+    width: 580px; }
   .b01 .form-block {
     float: right;
     position: relative; }
@@ -2838,8 +2841,8 @@ textarea.form-control {
     .b03 .teachers .teacher-item {
       outline: none; }
     .b03 .teachers .teacher-author {
-      width: 300px;
       font-size: 15px;
+      padding: 0 10px;
       line-height: 20px;
       text-align: center;
       margin-bottom: 10px; }
@@ -2851,18 +2854,28 @@ textarea.form-control {
         display: block; }
     .b03 .teachers .teacher-left {
       float: left;
-      width: 198px;
-      margin-left: 52px; }
+      width: 300px;
+      text-align: center; }
     .b03 .teachers .teacher-image {
+      width: 198px;
+      overflow: hidden;
+      margin-left: 52px;
       margin-bottom: 12px; }
     .b03 .teachers .teacher-text {
       float: left;
-      width: 660px;
+      width: 630px;
       color: #454f63;
-      font-size: 16px;
-      margin-left: 20px; }
-    .b03 .teachers .btn {
-      margin-left: 30px; }
+      font-size: 16px; }
+    .b03 .teachers .teacher-skill {
+      margin: 0;
+      padding: 0;
+      height: 125px;
+      list-style: none; }
+      .b03 .teachers .teacher-skill li {
+        float: left;
+        width: 50%;
+        padding: 0 10px 10px 45px;
+        background: url("../img/icon-check-two.png") 0 0 no-repeat; }
   .b03 .teacher-nav {
     top: 50%;
     width: 33px;

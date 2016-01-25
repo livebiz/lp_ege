@@ -61,25 +61,31 @@
 
 .b01 {
 	color: #fff;
-	height: 867px;
-	padding-top: 210px;
+	height: 670px;
+	padding-top: 240px;
 	position: relative;
 	background: url("../img/b01_bg.jpg") 50% 0 no-repeat;
 
 	h1 {
-		font-size: 44px;
+		font-size: 36px;
 		font-weight: 700;
-		line-height: 48px;
-		text-align: center;
-		margin-bottom: 20px;
+		line-height: 40px;
+		margin-bottom: 40px;
 		text-transform: uppercase;
 		text-shadow: 0px 2px 7px rgba(40, 48, 71, 0.55);
 	}
 
 	.text {
-		font-size: 22px;
-		line-height: 26px;
+		font-size: 24px;
+		line-height: 30px;
 		margin-bottom: 80px;
+		text-transform: uppercase;
+
+	}
+
+	.text-block {
+		float: left;
+		width: 580px;
 	}
 
 	.form-block {

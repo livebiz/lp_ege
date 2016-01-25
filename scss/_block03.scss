@@ -34,8 +34,8 @@
 		}
 
 		.teacher-author {
-			width: 300px;
 			font-size: 15px;
+			padding: 0 10px;
 			line-height: 20px;
 			text-align: center;
 			margin-bottom: 10px;
@@ -53,24 +53,40 @@
 
 		.teacher-left {
 			float: left;
-			width: 198px;
-			margin-left: 52px;
+			width: 300px;
+			text-align: center;
 		}
 
 		.teacher-image {
+			width: 198px;
+			overflow: hidden;
+			margin-left: 52px;
 			margin-bottom: 12px;
 		}
 
 		.teacher-text {
 			float: left;
-			width: 660px;
+			width: 630px;
 			color: #454f63;
 			font-size: 16px;
-			margin-left: 20px;
+		}
+
+		.teacher-skill {
+			margin: 0;
+			padding: 0;
+			height: 125px;
+			list-style: none;
+
+			li {
+				float: left;
+				width: 50%;
+				padding: 0 10px 10px 45px;
+				background: url("../img/icon-check-two.png") 0 0 no-repeat;
+			}
 		}
 
 		.btn {
-			margin-left: 30px;
+
 		}
 	}
 
