@@ -72,6 +72,13 @@
           </mappings>
         </serverdata>
       </paths>
+      <paths name="aroma-cosmetic">
+        <serverdata>
+          <mappings>
+            <mapping local="$PROJECT_DIR$" web="/" />
+          </mappings>
+        </serverdata>
+      </paths>
       <paths name="bdyapp">
         <serverdata>
           <mappings>
@@ -198,6 +205,13 @@
           </mappings>
         </serverdata>
       </paths>
+      <paths name="lp_cosmetic">
+        <serverdata>
+          <mappings>
+            <mapping local="$PROJECT_DIR$" web="/" />
+          </mappings>
+        </serverdata>
+      </paths>
       <paths name="lp_ege">
         <serverdata>
           <mappings>
@@ -248,6 +262,13 @@
         </serverdata>
       </paths>
       <paths name="pl_iphone">
+        <serverdata>
+          <mappings>
+            <mapping local="$PROJECT_DIR$" web="/" />
+          </mappings>
+        </serverdata>
+      </paths>
+      <paths name="remont">
         <serverdata>
           <mappings>
             <mapping local="$PROJECT_DIR$" web="/" />

@@ -2716,7 +2716,7 @@ textarea.form-control {
   padding-top: 15px;
   background: transparent; }
   .top.fix-top {
-    background: rgba(45, 53, 69, 0.8);
+    background: rgba(45, 53, 69, 0.9);
     border-bottom: 1px solid #9aa3b1; }
   .top .logo {
     float: left;
@@ -3108,7 +3108,7 @@ textarea.form-control {
   padding-bottom: 55px;
   background: #fff url("../img/pattern-two.png"); }
   .b08 .h2 {
-    color: #fff; }
+    color: #35415c; }
   .b08 .review {
     height: 372px;
     overflow: hidden;

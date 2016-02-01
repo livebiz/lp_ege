@@ -1,5 +1,13 @@
 // Меню
 
+$('.topnav li a').click(function(){
+    var str=$(this).attr('href');
+    $.scrollTo(str, 500, {offset:-140 });
+    return false;
+});
+
+
+
 $(function($){
     var topnav = $('.top');
     var label = $('.label');

@@ -9,7 +9,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
 
 	
     require 'class.phpmailer.php';
-    $thm = 'Вам отправлено сообщение с сайта rosich - ' . $type;
+    $thm = 'Вам отправлено сообщение с сайта ege - ' . $type;
     $msg = "<strong>Форма:</strong> $type <br/>";
     if(isset($name)){$msg .= "<strong>Имя:</strong> $name <br/>";}
     if(isset($phone)){$msg .= "<strong>Телефон:</strong> $phone <br/>";}
